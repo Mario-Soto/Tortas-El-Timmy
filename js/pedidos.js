@@ -238,11 +238,7 @@ $("#form-torta-nueva").submit((event) => {
 			50
 		);
 	}
-	console.log("Torta nueva: ");
-	console.log(torta_nueva);
 	let tortita = buscaTorta(torta_nueva);
-	console.log("Tortita: ");
-	console.log(tortita);
 	let cantidad = $("#cantidad-torta-nueva").val();
 	if (tortita.nombre == null) {
 		añadirPedido(
@@ -436,7 +432,6 @@ $("#form-refrescos").submit((event) => {
 function imprimirPedido() {
 	let pedidos = "";
 	for (let i = 0; i < carrito.length; i++) {
-		console.log(carrito[i]);
 		pedidos += `
 		<tr>
 			<td><i class="fa-solid fa-circle-minus me-1" onclick="disminuir(${i})" style="cursor: pointer;"></i> ${carrito[i].cantidad} <i class="fa-solid fa-circle-plus ms-1" onclick="aumentar(${i})" style="cursor: pointer;"></i></td>
