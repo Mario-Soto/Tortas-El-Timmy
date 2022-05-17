@@ -36,7 +36,9 @@ self.addEventListener("install", (e) => {
             "/Tortas-El-Timmy/js/fontawesome.min.js",
             "/Tortas-El-Timmy/js/jquery.min.js",
             "/Tortas-El-Timmy/js/cookies.min.js",
-            "/Tortas-El-Timmy/images/menu.png"
+            "/Tortas-El-Timmy/images/menu.png",
+			"/Tortas-El-Timmy/images/error404.png",
+			"/Tortas-El-Timmy/404.html",
 		]);
 	});
 	e.waitUntil(Promise.all([cacheProm, cacheInm]));
