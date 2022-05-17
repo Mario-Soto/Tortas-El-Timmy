@@ -82,7 +82,7 @@ function comparaTorta(torta1, torta2) {
 			"Tesorito"
 		)
 	);
-	tortas.push(new torta(["Jamón", "Quesillo", "Piña"].sort(), "Hawaiana", 59));
+	tortas.push(new torta(["Jamón", "Quesillo", "Piña"].sort(), 59, "Hawaiana"));
 	tortas.push(
 		new torta(
 			["Milanesa de pollo", "Salchicha", "Quesillo"].sort(),
