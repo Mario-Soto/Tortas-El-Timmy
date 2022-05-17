@@ -1,3 +1,3 @@
 if (navigator.serviceWorker) {
-	navigator.serviceWorker.register("/sw.js");
+	navigator.serviceWorker.register("/Tortas-El-Timmy/sw.js");
 }
